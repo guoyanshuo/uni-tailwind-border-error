@@ -1,0 +1,48 @@
+{
+  "pages": [
+    {
+      "path": "pages/home-page/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "disableScroll": true
+      }
+    },
+    {
+      "path": "pages/home-page/index2",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "disableScroll": true
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "aa",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#858B9C",
+    "fontSize": "12px",
+    "selectedColor": "#F12B2C",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "spacing": "4px",
+    "list": [
+      {
+        "pagePath": "pages/home-page/index",
+        "text": "页面1",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-active.png"
+      },
+      {
+        "pagePath": "pages/home-page/index2",
+        "text": "页面2",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-active.png"
+      }
+    ]
+  }
+}

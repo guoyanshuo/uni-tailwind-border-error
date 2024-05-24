@@ -1,0 +1,42 @@
+{
+  "Vue SFC Component": {
+    "prefix": "component",
+    "body": [
+      "<template>",
+      "  <view></view>",
+      "</template>",
+      "",
+      "<script setup lang=\"ts\">",
+      "export interface Props {}",
+      "",
+      "const props = withDefaults(defineProps<Props>(), {});",
+      "const emits = defineEmits(['click'])",
+      "</script>",
+      "<style lang=\"scss\" scoped></style>",
+      "",
+    ],
+    "description": "SFC 组件",
+    "scope": "vue",
+  },
+  "Vue SFC Page": {
+    "prefix": "page",
+    "body": [
+      "<template>",
+      "  <view class=\"p-4\">$1</view>",
+      "</template>",
+      "",
+      "<script setup lang=\"ts\">",
+      "$2",
+      "</script>",
+      "<style lang=\"scss\" scoped></style>",
+      "",
+    ],
+    "description": "SFC 页面",
+    "scope": "vue",
+  },
+  "loading 包裹": {
+    "prefix": "async-loading",
+    "body": ["asyncLoading(async () => {", "})"],
+    "description": "loading 包裹",
+  },
+}
